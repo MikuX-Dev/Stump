@@ -2148,6 +2148,15 @@
     debug "^4.3.4"
     getenv "^2.0.0"
 
+"@expo/env@~2.4.3":
+  version "2.4.3"
+  resolved "https://registry.yarnpkg.com/@expo/env/-/env-2.4.3.tgz#cba412d1cf19374bedd83106b32166a12862667c"
+  integrity sha512-M1NXeZCA1mkMkYOyIe7PlyRX0/jqFtMoJgyblnlq/vpCRfmueFT7RnGSQG8uEFDF5WHOFGijAQ3fogPh3/n5Ng==
+  dependencies:
+    chalk "^4.0.0"
+    debug "^4.3.4"
+    getenv "^2.0.0"
+
 "@expo/expo-modules-macros-plugin@0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@expo/expo-modules-macros-plugin/-/expo-modules-macros-plugin-0.2.2.tgz#b70b7022369df49f7fcc9a4125f08ca4ee01e26b"
@@ -12614,6 +12623,13 @@ expo-constants@~56.0.18:
   dependencies:
     "@expo/env" "~2.3.0"
 
+expo-constants@~57.0.17:
+  version "57.0.18"
+  resolved "https://registry.yarnpkg.com/expo-constants/-/expo-constants-57.0.18.tgz#51b6af86caa1bcfc7dde92fbe501449172891dc5"
+  integrity sha512-cLDwDOniPfuCZPHNY++cAY2ZkK97u5aobbBvilPK2LLmaWxR4ZpD31LWUIzUDLrwMPxLjmh1uURnbeYEf0Mivw==
+  dependencies:
+    "@expo/env" "~2.4.3"
+
 expo-crypto@~56.0.4:
   version "56.0.4"
   resolved "https://registry.yarnpkg.com/expo-crypto/-/expo-crypto-56.0.4.tgz#37e9be1f0901185fa83178d802f49695fc71422e"
@@ -12701,6 +12717,14 @@ expo-linking@~56.0.14:
   integrity sha512-IvVQHWC+Cj4fK5qD3iEVYqpU2a4rLW0IpAAlGJ4MH+H1fyZiHh3eN6qg2WmoclOEPfYATSuEa+dQT6wfgVpXlQ==
   dependencies:
     expo-constants "~56.0.18"
+    invariant "^2.2.4"
+
+expo-linking@~57.0.9:
+  version "57.0.9"
+  resolved "https://registry.yarnpkg.com/expo-linking/-/expo-linking-57.0.9.tgz#1329ce131b284c8e1133daa0a5c794438e4e37cc"
+  integrity sha512-TQJe3NsnpZXApBg1n6DKaZ4TNhYm+iYWq7W9rTp+G44IBMZSUcI8ba+ffYC/LMY1qw+95AuBPIF1zTx1NQoTXw==
+  dependencies:
+    expo-constants "~57.0.17"
     invariant "^2.2.4"
 
 expo-localization@~56.0.6:
