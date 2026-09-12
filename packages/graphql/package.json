@@ -4,7 +4,7 @@
 	"main": "src/index.ts",
 	"license": "MIT",
 	"dependencies": {
-		"graphql": "^16.10.0"
+		"graphql": "^17.0.2"
 	},
 	"devDependencies": {
 		"@graphql-codegen/cli": "^5.0.5",
